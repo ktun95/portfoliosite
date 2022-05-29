@@ -20,10 +20,10 @@ header img {
 }
 
 nav {
-    /* position: fixed;
+    position: fixed;
     width: 12rem;
     left: 0;
-    top: 20%; */
+    top: 20%;
 }
 
 ul {
@@ -54,6 +54,7 @@ svg {
 
 .project-card {
     display: flex;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
@@ -94,12 +95,13 @@ svg {
 
 #app {
     display: flex;
-    width: 55rem;
+    width: 60%;
     margin: 0 auto;
     gap: 1rem;
 }
 
 #main-content {
+    width: 100%;
     /* margin: 0 auto; */
     /* width: min-content */
 }
