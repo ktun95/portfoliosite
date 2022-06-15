@@ -1,9 +1,10 @@
 html {
     box-sizing: border-box;
     font-family: 'Dosis', sans-serif;
-    background-color: #f7f7ec;
-    font-size: 22px;
+    background-color: #ecf5f7;
+    font-size: 24px;
     color: #1c311c;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -41,7 +42,7 @@ a {
 }
 
 svg {
-    height: 4rem;
+    height: 4.5rem;
 }
 
 .wide-click-area {
@@ -63,6 +64,11 @@ svg {
     padding: 0.25rem;
 }
 
+.project-card > div {
+    flex-grow: 1;
+    text-align: center;
+}
+
 .project-card img {
     box-shadow: 1px 1px 3px;    
 }
@@ -71,8 +77,8 @@ svg {
     padding: 1rem;
 }
 
-.project-text-content {
-    text-align: right;
+.project-text-content div {
+    margin: auto;
 }
 
 .paragraph-container {
@@ -95,7 +101,7 @@ svg {
 
 #app {
     display: flex;
-    width: 60%;
+    width: 70%;
     margin: 0 auto;
     gap: 1rem;
 }
